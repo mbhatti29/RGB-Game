@@ -75,39 +75,6 @@ resetButton.addEventListener("click", function() { //reset should start game aga
 });
 
 
-
-// easyMode.addEventListener("click", function() {
-//   hardMode.classList.remove("selected");
-//   easyMode.classList.add("selected");
-//   numSquares = 3;
-//   colors = generateRandomColors(numSquares);
-//   pickedColor = pickColor();
-//   colorDisplay.textContent = pickedColor;
-//
-//   for (var i = 0; i < squares.length; i++) {
-//     if (colors[i]) {
-//       squares[i].style.background = colors[i];
-//     } else {
-//       squares[i].style.display = "none";
-//     }
-//   }
-// }); 
-// hardMode.addEventListener("click", function() {
-//   easyMode.classList.remove("selected");
-//   hardMode.classList.add("selected");
-//   numSquares = 6;
-//   colors = generateRandomColors(numSquares);
-//   pickedColor = pickColor();
-//   colorDisplay.textContent = pickedColor;
-//
-//   for (var i = 0; i < squares.length; i++) {
-//       squares[i].style.background = colors[i];
-//       squares[i].style.display = "block";
-//   }
-// });
-
-
-
 function changeColor(color) {
     //loop through all squares
     //change each color to match given colors
